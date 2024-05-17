@@ -6,6 +6,12 @@ A custom WordPress function to display upcoming events with event date, time and
 
 This WordPress function provides a shortcode `[upcoming_events]` that can be used to display a list of upcoming events on any page or post. Events are retrieved from the custom post type "Event" and filtered based on their event date.
 
+## Create Custom Fields with ACF
+
+1. **Event Date**: Create a date picker field named `event_date`.
+2. **Event Time**: Create a time picker field named `event_time`.
+3. **Event Location**: Create a text field named `event_location`.
+
 ## Features
 
 - Displays upcoming events with event date, time and location.
